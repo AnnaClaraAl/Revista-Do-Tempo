@@ -1,0 +1,1267 @@
+html{
+    background-image: linear-gradient(#E1C4AF, rgb(255, 207, 144), #E1C4AF,  rgb(255, 207, 144), #E1C4AF);
+    overflow-y: scroll;
+    scroll-behavior: smooth !important;
+    overflow-x: hidden;
+}
+
+a{
+    font-size: 30px;
+    @font-face {
+        font-family: 'Oranienbaum', serif;
+        src: url("../fontes/Oranienbaum/Oranienbaum-Regular.ttf");
+    }
+    color: #3D1706;
+    text-decoration: none;
+}
+
+span{
+    font-weight: bold;
+}
+
+input{
+    font-size: medium;
+    padding: 5px;
+}
+
+textarea{
+    font-size: medium;
+    padding: 5px;
+}
+
+.titulos{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 175px;
+    filter: none;
+    opacity: 80%;
+    margin-top: 10%;
+    animation: Color2 30s;
+    animation-iteration-count: infinite;
+}
+
+.Seções{
+    margin: 0 auto;
+}
+
+.paginas{
+    position: relative;
+    width: 85%;
+    min-width: 612px;
+    min-height: 1200px;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    border: #3D1706 5px solid;
+    height: 225%;
+    background-image: url("../imagens/fundo.jpg");
+    background-attachment: scroll;
+    background-size: cover;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.Manchete{
+    position: relative;
+    width: 100%;
+    border-top: 7px #4e4207 double;
+    border-bottom: 5px #4e4207 double;
+    min-height: 350px;
+}
+
+.TituloM{
+    position: relative;
+    color: #793B3B;
+    font-size: 175px;
+    text-align: center;
+    margin-top: 1%;
+    right: 0.75%;
+    @font-face {
+        font-family: 'Oranienbaum', 'Times New Roman';
+        src: url('../fontes/Oranienbaum/Oranienbaum-Regular.ttf');
+    }
+    
+}
+
+.SubTituloM{
+    position: relative;
+    color: black;
+    font-size: 55px;
+    text-align: center;
+    margin-top: -15%;
+    @font-face {
+        font-family: 'Oranienbaum', 'Times New Roman';
+        src: url('../fontes/Oranienbaum/Oranienbaum-Regular.ttf');
+    }
+}
+
+.SubTitulo2M{
+    position: relative;
+    color: rgb(24, 24, 24);
+    font-size: 30px;
+    text-align: center;
+    margin-top: -4%;
+    @font-face {
+        font-family: 'Oranienbaum', 'Times New Roman';
+        src: url('../fontes/Oranienbaum/Oranienbaum-Regular.ttf');
+    }
+}
+
+.Texto1{
+    position: relative;
+    width: 46%;
+    float: left;
+    margin-top: 5%;
+    margin-left: 4%;
+    border-bottom: black 2px dashed;
+    min-height: 100%;
+}
+
+.Texto2{
+    position: relative;
+    width: 46%;
+    float: right;
+    margin-top: 5%;
+    margin-right: 4%;
+    border-bottom: black 2px dashed;
+    min-height: 100%;
+}
+
+.T1{
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    font-size: 45px;
+    margin-bottom: -2.5%;
+    margin-left: 20%;
+}
+
+.T12{
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    font-size: 45px;
+    margin-bottom: -2.5%;
+    margin-right: 22.5%;
+}
+
+.MAISTEXTOAAA{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #000000;
+    width: 90%;
+}
+
+.MAISTEXTOAAA2{
+    float: right;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #000000;
+    width: 90%;
+}
+
+.Linha1{
+    width: 70%;
+    height: 70%;
+    margin-left: 7.5%;
+}
+
+.Linha2{
+    float: right;
+    width: 70%;
+    height: 70%;
+    margin-right: 7.5%;
+}
+
+@keyframes Color{
+    0% {color: #E1C4AF;}
+    25% {color: rgb(148, 93, 20);}
+    50% { color:#e7c419}
+    75% {color: rgb(148, 93, 20);}
+    100% {color: #E1C4AF;}
+}
+
+a:hover{
+    animation: Color 2.5s;
+    animation-iteration-count: infinite;
+}
+
+#titulos{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 175px;
+    filter: none;
+    opacity: 80%;
+    margin-top: 7.5%;
+    animation: Color2 30s;
+    animation-iteration-count: infinite;
+}
+
+#Texto2{
+    position: relative;
+    width: 46%;
+    float: right;
+    margin-top: 5%;
+    margin-right: 4%;
+    border-bottom: #000000 2px dashed;
+    padding-bottom: 3.150%;
+}
+
+#Texto2_2{
+    position: relative;
+    width: 46%;
+    float: right;
+    margin-top: 5%;
+    margin-right: 4%;
+    border-bottom: #000000 2px dashed;
+}
+
+#Texto2_3{
+    position: relative;
+    width: 46%;
+    float: right;
+    margin-top: 10%;
+    margin-right: 4%;
+    border-bottom: #000000 2px dashed;
+    padding-bottom: 6.150%;
+}
+
+#Texto2_4{
+    position: relative;
+    width: 46%;
+    float: right;
+    margin-top: 7%;
+    margin-right: 4%;
+    border-bottom: #000000 2px dashed;
+}
+
+#Texto2_5{
+    position: relative;
+    width: 46%;
+    float: right;
+    margin-top: 10%;
+    margin-right: 4%;
+    border-bottom: #000000 2px dashed;
+}
+
+#Texto2_6{
+    position: relative;
+    width: 46%;
+    float: right;
+    margin-top: 8%;
+    margin-right: 4%;
+    border-bottom: #000000 2px dashed;
+    padding-bottom: 9%;
+}
+
+#Texto2_7{
+    position: relative;
+    width: 46%;
+    float: right;
+    margin-top: 6%;
+    margin-right: 4%;
+    border-bottom: #000000 2px dashed;
+    padding-bottom: 0%;
+}
+
+#Texto2_8{
+    position: relative;
+    width: 46%;
+    float: right;
+    margin-top: 10%;
+    margin-right: 4%;
+    border-bottom: #000000 2px dashed;
+    padding-bottom: 0%;
+}
+
+
+#Texto1_2{
+    position: relative;
+    width: 46%;
+    float: left;
+    margin-top: 5%;
+    margin-left: 4%;
+    border-bottom: black 2px dashed;
+    min-height: 100%;
+    padding-bottom: 4.150%;
+}
+
+#Texto1_3{
+    position: relative;
+    width: 46%;
+    float: left;
+    margin-top: 5%;
+    margin-left: 4%;
+    border-bottom: black 2px dashed;
+    min-height: 100%;
+    padding-bottom: 6.750%;
+}
+
+#Texto1_4{
+    position: relative;
+    width: 46%;
+    float: left;
+    margin-top: 5%;
+    margin-left: 4%;
+    border-bottom: black 2px dashed;
+    min-height: 100%;
+    padding-bottom: 5.55%;
+}
+
+#Texto1_5{
+    position: relative;
+    width: 46%;
+    float: left;
+    margin-top: 5%;
+    margin-left: 4%;
+    border-bottom: black 2px dashed;
+    min-height: 100%;
+    padding-bottom: 4.7%;
+}
+
+#Texto1_6{
+    position: relative;
+    width: 46%;
+    float: left;
+    margin-top: 5%;
+    margin-left: 4%;
+    border-bottom: black 2px dashed;
+    min-height: 100%;
+    padding-bottom: 11.75%;
+}
+
+#T1{
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    font-size: 45px;
+    margin-bottom: -2.5%;
+    margin-left: 7.5%;
+}
+
+#T1_5{
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    font-size: 45px;
+    margin-bottom: -2.5%;
+    margin-left: 2.5%;
+    text-align: center;
+    width: 80%;
+}
+
+#T1_6{
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    font-size: 45px;
+    margin-bottom: -2.5%;
+    margin-left: 2.5%;
+    text-align: center;
+    width: 80%;
+}
+#T1_7{
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    font-size: 45px;
+    margin-bottom: -2.5%;
+    margin-left: 2.5%;
+    text-align: center;
+    width: 80%;
+}
+
+#T1_8{
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    font-size: 45px;
+    margin-bottom: -2.5%;
+    margin-left: 2.5%;
+    text-align: center;
+    width: 80%;
+}
+
+#T1_9{
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    font-size: 45px;
+    margin-bottom: -2.5%;
+    margin-left: 2.5%;
+    text-align: center;
+    width: 80%;
+}
+#T1_10{
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    font-size: 45px;
+    margin-bottom: -2.5%;
+    margin-left: 2.5%;
+    text-align: center;
+    width: 80%;
+}
+
+#T1_11{
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    font-size: 45px;
+    margin-bottom: -2.5%;
+    margin-left: 2.5%;
+    text-align: center;
+    width: 80%;
+}
+
+#T1_12{
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    font-size: 45px;
+    margin-bottom: -2.5%;
+    margin-left: 2.5%;
+    text-align: center;
+    width: 80%;
+}
+
+#T1_13{
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    font-size: 45px;
+    margin-bottom: -2.5%;
+    margin-left: 2.5%;
+    text-align: center;
+    width: 80%;
+}
+
+#T1_14{
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    font-size: 45px;
+    margin-bottom: -2.5%;
+    margin-left: 2.5%;
+    text-align: center;
+    width: 80%;
+}
+
+#T1_15{
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    font-size: 45px;
+    margin-bottom: -2.5%;
+    margin-left: 2.5%;
+    text-align: center;
+    width: 80%;
+}
+
+#T1_16{
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    font-size: 45px;
+    margin-bottom: -2.5%;
+    margin-left: 2.5%;
+    text-align: center;
+    width: 80%;
+}
+
+#T12_5{
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    font-size: 45px;
+    margin-bottom: -2.5%;
+    margin-right: -3%;
+    text-align: center;
+    width: 90%;
+    margin-top: 1%;
+}
+
+#T12_6{
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    font-size: 45px;
+    margin-bottom: -2.5%;
+    margin-right: -3%;
+    text-align: center;
+    width: 90%;
+    margin-top: 1%;
+}
+
+#T12_7{
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    font-size: 45px;
+    margin-bottom: -2.5%;
+    margin-right: -2.5%;
+    text-align: center;
+    width: 90%;
+    margin-top: 1%;
+}
+
+#T12_8{
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    font-size: 45px;
+    margin-bottom: -2.5%;
+    margin-right: -2.5%;
+    text-align: center;
+    width: 90%;
+    margin-top: 1%;
+}
+
+#T12_9{
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    font-size: 45px;
+    margin-bottom: -2.5%;
+    margin-right: -2.5%;
+    text-align: center;
+    width: 90%;
+    margin-top: 1%;
+}
+
+#T12_10{
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    font-size: 45px;
+    margin-bottom: -2.5%;
+    margin-right: -2.5%;
+    text-align: center;
+    width: 90%;
+    margin-top: 1%;
+}
+
+#T12_11{
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    font-size: 45px;
+    margin-bottom: -2.5%;
+    margin-right: -2.5%;
+    text-align: center;
+    width: 90%;
+    margin-top: 1%;
+}
+
+#T12_12{
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    font-size: 45px;
+    margin-bottom: -2.5%;
+    margin-right: -2.5%;
+    text-align: center;
+    width: 90%;
+    margin-top: 5%;
+}
+
+#Parte00{
+    position: relative;
+    background-image: url("../imagens/1810.png");
+    margin-top: 65%;
+    width: 115%;
+    margin-left: -10%;
+    min-height: 500px;
+    border-top: 5px #4e4207 double;
+    border-bottom: 5px #4e4207 double;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Parte05{
+    position: relative;
+    background-image: url("../imagens/1810.png");
+    margin-top: 165%;
+    width: 115%;
+    margin-left: -10%;
+    height: 500px;
+    border-top: 5px #4e4207 double;
+    border-bottom: 5px #4e4207 double;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Parte15{
+    position: relative;
+    background-image: url("../imagens/independencia.png");
+    margin-top: 15%;
+    width: 115%;
+    margin-left: -10%;
+    height: 500px;
+    border-top: 5px #4e4207 double;
+    border-bottom: 5px #4e4207 double;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Parte25{
+    position: relative;
+    background-image: url("../imagens/1831.png");
+    margin-top: 15%;
+    width: 115%;
+    margin-left: -10%;
+    height: 500px;
+    border-top: 5px #4e4207 double;
+    border-bottom: 5px #4e4207 double;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Parte35{
+    position: relative;
+    background-image: url("../imagens/bill_aberdeen1845_3.jpg");
+    margin-top: 15%;
+    width: 115%;
+    margin-left: -10%;
+    height: 500px;
+    border-top: 5px #4e4207 double;
+    border-bottom: 5px #4e4207 double;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Parte45{
+    position: relative;
+    background-image: url("../imagens/1853.jpg");
+    margin-top: 15%;
+    width: 115%;
+    margin-left: -10%;
+    height: 500px;
+    border-top: 5px #4e4207 double;
+    border-bottom: 5px #4e4207 double;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Parte55{
+    position: relative;
+    background-image: url("../imagens/1860.jpeg");
+    margin-top: 15%;
+    width: 115%;
+    margin-left: -10%;
+    height: 500px;
+    border-top: 5px #4e4207 double;
+    border-bottom: 5px #4e4207 double;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Parte65{
+    position: relative;
+    background-image: url("../imagens/1870.jpg");
+    margin-top: 15%;
+    width: 115%;
+    margin-left: -10%;
+    height: 500px;
+    border-top: 5px #4e4207 double;
+    border-bottom: 5px #4e4207 double;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Parte75{
+    position: relative;
+    background-image: url("../imagens/proclamacao-da-republica1889.jpg");
+    margin-top: 15%;
+    width: 115%;
+    margin-left: -10%;
+    height: 500px;
+    border-top: 5px #4e4207 double;
+    border-bottom: 5px #4e4207 double;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#div1{
+    margin-top: -5%;
+}
+#Logo{
+    position: absolute;
+    width: 20%;
+    height: 42.5%;
+    float: left;
+    top: -10%;
+}
+
+#Barra1{
+    position: absolute;
+    float: right;
+    width: 67.5%;
+    height: 10%;
+    z-index: -1;
+    top: 6%;
+    right: 5%;
+}
+
+#Link1{
+    top: 9%;
+    position: absolute;
+    left: 33%;
+    scroll-behavior: smooth;
+}
+
+#Link2{
+    top: 9%;
+    position: absolute;
+    left: 42%;
+    scroll-behavior: smooth;
+}
+
+#FundoT{
+    position: absolute;
+    top: 27.5%;
+    width: 110%;
+    height: 85%;
+    left: -10%;
+    border-top: #3D1706 20px solid;
+    border-bottom: #3D1706 10px solid;
+    filter: brightness(60%);
+    opacity: 85%;
+    scroll-behavior: smooth;
+}
+
+#Titulo{
+    margin-left: 7.5%;
+    font-size: 170px;
+    width: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    position: absolute;
+    top: 12.5%;
+    scroll-behavior: smooth;
+    animation: fadeIn 3.5s;
+    @font-face {
+        font-family: 'Oranienbaum', serif;
+        src: url("../fontes/Oranienbaum/Oranienbaum-Regular.ttf");
+    }
+}
+
+#Titulo2{
+    margin-left: 7.5%;
+    font-size: 170px;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    position: absolute;
+    top: 28%;
+    scroll-behavior: smooth;
+    animation: fadeIn 3.5s;
+    @font-face {
+        font-family: 'Oranienbaum', serif;
+        src: url("../fontes/Oranienbaum/Oranienbaum-Regular.ttf");
+    }
+}
+
+#SubTitulo2{
+    margin-left: 8%;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    position: absolute;
+    top: 75%;
+    font-style: italic;
+    animation: fadeIn 4s;
+    @font-face {
+        font-family: 'Oranienbaum', serif;
+        src: url("../fontes/Oranienbaum/Oranienbaum-Regular.ttf");
+    }
+}
+
+#SubTitulo{
+    margin-left: 8%;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    position: absolute;
+    top: 87.5%;
+    font-style: italic;
+    animation: fadeIn 4s;
+    @font-face {
+        font-family: 'Oranienbaum', serif;
+        src: url("../fontes/Oranienbaum/Oranienbaum-Regular.ttf");
+    }
+}
+
+
+#Legenda1{
+    color: #3D1706;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    right: 41.5%;
+    top: 122%;
+}
+
+#LDP{
+    position: absolute;
+    top: 135%;
+    right: 15%;
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;
+    border: #3D1706 5px solid;
+    background-color: #FFEBDC;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#Data1{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 74px;
+    top: 149%;
+    position: absolute;
+    right: 30.5%;
+    text-decoration: underline;
+}
+
+#Data2{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 95px;
+    top: 167%;
+    position: absolute;
+    right: 44.25%;
+    text-decoration: underline;
+}
+
+#Data3{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 74px;
+    top: 192%;
+    position: absolute;
+    left: 29.5%;
+    text-decoration: underline;
+}
+
+#Data4{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 74px;
+    top: 210.5%;
+    position: absolute;
+    right: 30.5%;
+    text-decoration: underline;
+}
+
+#Data5{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 74px;
+    top: 226.5%;
+    position: absolute;
+    left: 29.5%;
+    text-decoration: underline;
+}
+
+#Data6{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 74px;
+    top: 241%;
+    position: absolute;
+    right: 30.5%;
+    text-decoration: underline;
+}
+
+#Data7{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 74px;
+    top: 256%;
+    position: absolute;
+    left: 29.5%;
+    text-decoration: underline;
+}
+
+#Data8{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 74px;
+    top: 271.25%;
+    position: absolute;
+    right: 30.5%;
+    text-decoration: underline;
+}
+
+#Parte1{
+    background-size: cover;;
+    height: 100%;
+    width: 100%;
+    opacity: 70%;
+    filter: contrast(70%);
+}
+
+@keyframes Color2{
+    0% {color: white;}
+    50% {color: bisque;}
+    100% {color: white;}
+}
+
+#pagina1{
+    margin-top: 10%;
+    height: 1700px;
+}
+
+#imagem1{
+    margin-top: 5%;
+    height: 90%;
+    width: 90%;
+    border-radius: 30%;
+    border: #000000 3px double;
+    margin-bottom: 5%;
+}
+
+#imagem2{
+    margin-top: 5%;
+    height: 90%;
+    width: 90%;
+    border-radius: 30%;
+    border: #000000 3px double;
+    margin-bottom: 5%;
+}
+
+#imagem3{
+    float: right;
+    margin-top: 5%;
+    height: 90%;
+    width: 90%;
+    border-radius: 5%;
+    border: #000000 3px double;
+    margin-bottom: 5%;
+}
+
+#imagem4{
+    margin-top: 5%;
+    height: 60%;
+    width: 70%;
+    border-radius: 30%;
+    border: #000000 3px double;
+    margin-bottom: 5%;
+    margin-left: 7.5%;
+}
+
+#imagem5{
+    float: right;
+    margin-top: 5%;
+    height: 100%;
+    width: 90%;
+    border-radius: 20%;
+    border: #000000 3px double;
+    margin-bottom: 5%;
+}
+
+#imagem6{
+    float: right;
+    margin-top: 5%;
+    height: 100%;
+    width: 90%;
+    border-radius: 20%;
+    border: #000000 3px double;
+    margin-bottom: 5%;
+}
+
+#imagem7{
+    margin-top: 5%;
+    height: 90%;
+    width: 90%;
+    border-radius: 30%;
+    border: #000000 3px double;
+    margin-bottom: 5%;
+}
+
+#imagem8{
+    float: right;
+    margin-top: 5%;
+    height: 90%;
+    width: 90%;
+    border-radius: 30%;
+    border: #000000 3px double;
+    margin-bottom: 5%;
+}
+
+#imagem9{
+    margin-top: 5%;
+    height: 90%;
+    width: 90%;
+    border-radius: 30%;
+    border: #000000 3px double;
+    margin-bottom: 5%;
+}
+
+#imagem10{
+    float: right;
+    margin-top: 5%;
+    height: 40%;
+    width: 50%;
+    border-radius: 15%;
+    border: #000000 3px double;
+    margin-bottom: 5%;
+    margin-right: 10%;
+}
+
+#imagem11{
+    float: right;
+    margin-top: 5%;
+    height: 90%;
+    width: 90%;
+    border-radius: 15%;
+    border: #000000 3px double;
+    margin-bottom: 5%;
+}
+
+#imagem12{
+    margin-top: 5%;
+    height: 90%;
+    width: 90%;
+    border-radius: 30%;
+    border: #000000 3px double;
+    margin-bottom: 5%;
+}
+
+#imagem13{
+    margin-top: 5%;
+    height: 40%;
+    width: 50%;
+    border-radius: 15%;
+    border: #000000 3px double;
+    margin-bottom: 5%;
+    margin-left: 13%;
+}
+
+#imagem14{
+    float: right;
+    margin-top: 5%;
+    height: 90%;
+    width: 90%;
+    border-radius: 30%;
+    border: #000000 3px double;
+    margin-bottom: 5%;
+}
+
+#imagem15{
+    margin-top: 5%;
+    height: 90%;
+    width: 90%;
+    border-radius: 30%;
+    border: #000000 3px double;
+    margin-bottom: 5%;
+}
+
+#imagem16{
+    float: right;
+    margin-top: 5%;
+    height: 90%;
+    width: 90%;
+    border-radius: 15%;
+    border: #000000 3px double;
+    margin-bottom: 5%;
+}
+
+#imagem17{
+    float: right;
+    height: 40%;
+    width: 40%;
+    border-radius: 15%;
+    border: #000000 3px double;
+    margin-bottom: 5%;
+    margin-right: 20%;
+}
+
+#pagina2{
+    margin-top: 10%;
+    height: 5250px;
+}
+
+#pagina3{
+    margin-top: 10%;
+    height: 2750px;
+}
+
+#pagina4{
+    margin-top: 10%;
+    height: 2650px;
+}
+
+#pagina5{
+    margin-top: 10%;
+    height: 2600px;
+}
+
+#pagina6{
+    margin-top: 10%;
+    height: 2750px; 
+}
+
+#pagina7{
+    margin-top: 10%;
+    height: 2450px;
+}
+
+#pagina8{
+    margin-top: 10%;
+    height: 3350px;
+}
+
+#top1{
+    position: relative;
+text-align: left;
+color: black;
+    font-size: 25px;
+    margin-top: 5%;
+    width: 30%;
+    left: 2.5%;
+    margin-bottom: -7.25%;
+}
+
+#top2{
+    position: relative;
+text-align: center;
+color: black;
+    font-size: 25px;
+    margin-top: 5%;
+    width: 30%;
+    right: -35%;
+    margin-bottom: -7.25%;
+}
+
+#top3{
+    position: relative;
+text-align: right;
+color: black;
+    font-size: 25px;
+    margin-top: 5%;
+    width: 30%;
+    right: -68%;
+    margin-bottom: 0%;
+}
+
+#T1820{
+    position: relative;
+    color: #793B3B;
+    font-size: 175px;
+    text-align: center;
+    margin-top: 1%;
+    right: 0.75%;
+    animation: Color3 5s;
+    animation-iteration-count: infinite;
+    @font-face {
+        font-family: 'Oranienbaum', 'Times New Roman';
+        src: url('../fontes/Oranienbaum/Oranienbaum-Regular.ttf');
+    }
+}
+
+@keyframes Color3{
+    0% {color: #793B3B;}
+    25% {color: sienna;}
+    50% {color:#3D1706}
+    75% {color: sienna;}
+    100% {color: #793B3B;}
+}
+
+#Rodape{
+    border-top: #3D1706 10px solid;
+    position: relative;
+    margin-top: 10%;
+    width: 110%;
+    min-height: 225px;
+    margin-bottom: -5%;
+    background-image: linear-gradient( #B8856A, #B8856A, #cb8863 );
+    margin-left: -10%;
+}
+
+#RP1{
+    margin-top: 4%;
+    position: relative;
+    color: white;
+    font-size: 25px;
+    text-align: left;
+    margin-left: 11.5%;
+}
+
+#RP2{
+    position: relative;
+    color: white;
+    font-size: 25px;
+    text-align: left;
+    margin-left: 11.5%;
+}
+
+#BTInicio{
+    position: relative;
+    color: #3D1706;
+    font-size: 35px;
+    text-align: right;
+    float: right;
+    margin-right: 11.5%;
+    z-index: 20;
+    margin-top: -6%;
+    text-decoration: underline;
+    background-color: #e1c4afa5;
+    padding: 1%;
+    border-radius: 10%;
+    border: #3D1706 2px solid;
+}
+
+#contato{
+    width: 80%; 
+    margin: 0 auto; 
+}
+
+#formulario{
+    width: 60%; 
+    margin: 0 auto; 
+    float: left;
+
+}
+
+#contatos{
+    width: 40%;
+    margin-left: 50%;
+    margin-bottom: 25%;
+}
+
+#explicação{
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 60px;
+}
+
+#missão{
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 50px;
+}
+
+#submit{
+    margin-bottom: 10px;
+    background-color: beige;
+}
+
+Contato{
+    margin-bottom: 25%;
+    margin-top: 10%;
+}
